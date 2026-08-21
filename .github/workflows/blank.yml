@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Step
-        run: echo "This is pull based trigger demo build"
+        run: echo "Hello, ${{vars.MY_NAME}}"
   
